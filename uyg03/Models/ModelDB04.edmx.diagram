@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fa832d12a8144d54a13d4e41a72993c4" Name="Diagram1">
+        <EntityTypeShape EntityType="DB04Model.Haber" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB04Model.Kategori" Width="1.5" PointX="6.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB04Model.Uye" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB04Model.Yorum" Width="1.5" PointX="6.375" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="DB04Model.FK_Haber_ToKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DB04Model.FK_Haber_ToUye" ManuallyRouted="false" />
+        <AssociationConnector Association="DB04Model.FK_Yorum_ToHaber" ManuallyRouted="false" />
+        <AssociationConnector Association="DB04Model.FK_Yorum_ToUye" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
